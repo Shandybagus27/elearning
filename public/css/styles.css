@@ -1,0 +1,83 @@
+
+.breadcrumb {
+    font-size: 0.9em;
+    margin: 15px 20px;
+    color: #333;
+}
+
+.breadcrumb a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #000305;
+}
+
+.breadcrumb a:hover {
+    text-decoration: underline;
+}
+
+.breadcrumb span {
+    color: #555;
+}
+
+.chapter-card {
+    display: flex;
+    align-items: flex-start;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.chapter-card img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.chapter-content {
+    padding: 15px;
+    flex: 1;
+}
+
+.chapter-content h4 {
+    font-size: 1.2em;
+    color: #007BFF;
+    margin-bottom: 10px;
+}
+
+.chapter-content p {
+    color: #555;
+    font-size: 0.9em;
+    margin-bottom: 15px;
+}
+
+.chapter-locked {
+    padding: 20px;
+    background-color: #eee;
+    color: #999;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+.accordion-button {
+    font-weight: bold;
+    font-size: 0.5em;
+}
+
+.accordion-body a {
+    font-size: 0.9em;
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.accordion-body a:hover {
+    color: #0056b3;
+}
+
+.dark-theme {
+    color: white;
+    background-color: black;
+}
